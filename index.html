@@ -1,0 +1,312 @@
+<html>
+	<head>
+    <title>Configurable</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script>
+  </head>
+  <body>
+	<div data-role="page" id="main">
+	<div data-role="header" class="jqm-header">
+	<label for="searchingFor">Enter your timetable</label>
+	</div>
+	<br>
+	<h1>PLEASE DO NOT USE THE CHARACTERS "-" and "," IN YOUR INPUT</h1>
+	<br>
+	<p>Subjects</p>
+	<div data-role="fieldcontain">
+	<table>
+		<tr>
+			<td>Week A</td>
+			<td>Period 1</td>
+			<td>Period 2</td>
+			<td>Period 3</td>
+			<td>Period 4</td>
+			<td>Period 5</td>
+			<td>Period 6</td>
+		</tr>
+		<tr>
+			<td>Monday</td>
+			<td><textarea cols="20" rows="1" for="WeekAMonday1" name="WeekAMonday1" id="WeekAMonday1"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAMonday2" name="WeekAMonday2" id="WeekAMonday2"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAMonday3" name="WeekAMonday3" id="WeekAMonday3"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAMonday4" name="WeekAMonday4" id="WeekAMonday4"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAMonday5" name="WeekAMonday5" id="WeekAMonday5"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAMonday6" name="WeekAMonday6" id="WeekAMonday6"></textarea></td>
+		</tr>
+		<tr>
+			<td>Tuesday</td>
+			<td><textarea cols="20" rows="1" for="WeekATuesday1" name="WeekATuesday1" id="WeekATuesday1"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekATuesday2" name="WeekATuesday2" id="WeekATuesday2"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekATuesday3" name="WeekATuesday3" id="WeekATuesday3"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekATuesday4" name="WeekATuesday4" id="WeekATuesday4"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekATuesday5" name="WeekATuesday5" id="WeekATuesday5"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekATuesday6" name="WeekATuesday6" id="WeekATuesday6"></textarea></td>
+		</tr>
+		<tr>
+			<td>Wednesday</td>
+			<td><textarea cols="20" rows="1" for="WeekAWednesday1" name="WeekAWednesday1" id="WeekAWednesday1"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAWednesday2" name="WeekAWednesday2" id="WeekAWednesday2"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAWednesday3" name="WeekAWednesday3" id="WeekAWednesday3"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAWednesday4" name="WeekAWednesday4" id="WeekAWednesday4"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAWednesday5" name="WeekAWednesday5" id="WeekAWednesday5"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAWednesday6" name="WeekAWednesday6" id="WeekAWednesday6"></textarea></td>
+		</tr>
+		<tr>
+			<td>Thursday</td>
+			<td><textarea cols="20" rows="1" for="WeekAThursday1" name="WeekAThursday1" id="WeekAThursday1"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAThursday2" name="WeekAThursday2" id="WeekAThursday2"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAThursday3" name="WeekAThursday3" id="WeekAThursday3"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAThursday4" name="WeekAThursday4" id="WeekAThursday4"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAThursday5" name="WeekAThursday5" id="WeekAThursday5"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAThursday6" name="WeekAThursday6" id="WeekAThursday6"></textarea></td>
+		</tr>
+		<tr>
+			<td>Friday</td>
+			<td><textarea cols="20" rows="1" for="WeekAFriday1" name="WeekAFriday1" id="WeekAFriday1"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAFriday2" name="WeekAFriday2" id="WeekAFriday2"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAFriday3" name="WeekAFriday3" id="WeekAFriday3"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAFriday4" name="WeekAFriday4" id="WeekAFriday4"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAFriday5" name="WeekAFriday5" id="WeekAFriday5"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekAFriday6" name="WeekAFriday6" id="WeekAFriday6"></textarea></td>
+		</tr>
+	</table>
+	</div>
+	<br>
+	<div data-role="fieldcontain">
+	<table>
+		<tr>
+			<td>Week B</td>
+			<td>Period 1</td>
+			<td>Period 2</td>
+			<td>Period 3</td>
+			<td>Period 4</td>
+			<td>Period 5</td>
+			<td>Period 6</td>
+		</tr>
+		<tr>
+			<td>Monday</td>
+			<td><textarea cols="20" rows="1" for="WeekBMonday1" name="WeekBMonday1" id="WeekBMonday1"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBMonday2" name="WeekBMonday2" id="WeekBMonday2"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBMonday3" name="WeekBMonday3" id="WeekBMonday3"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBMonday4" name="WeekBMonday4" id="WeekBMonday4"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBMonday5" name="WeekBMonday5" id="WeekBMonday5"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBMonday6" name="WeekBMonday6" id="WeekBMonday6"></textarea></td>
+		</tr>
+		<tr>
+			<td>Tuesday</td>
+			<td><textarea cols="20" rows="1" for="WeekBTuesday1" name="WeekBTuesday1" id="WeekBTuesday1"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBTuesday2" name="WeekBTuesday2" id="WeekBTuesday2"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBTuesday3" name="WeekBTuesday3" id="WeekBTuesday3"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBTuesday4" name="WeekBTuesday4" id="WeekBTuesday4"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBTuesday5" name="WeekBTuesday5" id="WeekBTuesday5"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBTuesday6" name="WeekBTuesday6" id="WeekBTuesday6"></textarea></td>
+		</tr>
+		<tr>
+			<td>Wednesday</td>
+			<td><textarea cols="20" rows="1" for="WeekBWednesday1" name="WeekBWednseday1" id="WeekBWednseday1"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBWednesday2" name="WeekBWednseday2" id="WeekBWednseday2"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBWednesday3" name="WeekBWednseday3" id="WeekBWednseday3"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBWednesday4" name="WeekBWednseday4" id="WeekBWednseday4"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBWednesday5" name="WeekBWednseday5" id="WeekBWednseday5"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBWednesday6" name="WeekBWednseday6" id="WeekBWednseday6"></textarea></td>
+		</tr>
+		<tr>
+			<td>Thursday</td>
+			<td><textarea cols="20" rows="1" for="WeekBThursday1" name="WeekBThursday1" id="WeekBThursday1"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBThursday2" name="WeekBThursday2" id="WeekBThursday2"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBThursday3" name="WeekBThursday3" id="WeekBThursday3"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBThursday4" name="WeekBThursday4" id="WeekBThursday4"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBThursday5" name="WeekBThursday5" id="WeekBThursday5"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBThursday6" name="WeekBThursday6" id="WeekBThursday6"></textarea></td>
+		</tr>
+		<tr>
+			<td>Friday</td>
+			<td><textarea cols="20" rows="1" for="WeekBFriday1" name="WeekBFriday1" id="WeekBFriday1"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBFriday2" name="WeekBFriday2" id="WeekBFriday2"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBFriday3" name="WeekBFriday3" id="WeekBFriday3"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBFriday4" name="WeekBFriday4" id="WeekBFriday4"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBFriday5" name="WeekBFriday5" id="WeekBFriday5"></textarea></td>
+			<td><textarea cols="20" rows="1" for="WeekBFriday6" name="WeekBFriday6" id="WeekBFriday6"></textarea></td>
+		</tr>
+	</table>
+	</div>
+	<br>
+	<div data-role="fieldcontain">
+	<p>Extra Information</p>
+	<table>
+		<tr>
+			<td>Week A</td>
+			<td>Period 1</td>
+			<td>Period 2</td>
+			<td>Period 3</td>
+			<td>Period 4</td>
+			<td>Period 5</td>
+			<td>Period 6</td>
+		</tr>
+		<tr>
+			<td>Monday</td>
+			<td><textarea cols="20" rows="1" name="WeekAMonday1L" id="WeekAMonday1L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAMonday2L" id="WeekAMonday2L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAMonday3L" id="WeekAMonday3L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAMonday4L" id="WeekAMonday4L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAMonday5L" id="WeekAMonday5L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAMonday6L" id="WeekAMonday6L"></textarea></td>
+		</tr>
+		<tr>
+			<td>Tuesday</td>
+			<td><textarea cols="20" rows="1" name="WeekATuesday1L" id="WeekATuesday1L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekATuesday2L" id="WeekATuesday2L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekATuesday3L" id="WeekATuesday3L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekATuesday4L" id="WeekATuesday4L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekATuesday5L" id="WeekATuesday5L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekATuesday6L" id="WeekATuesday6L"></textarea></td>
+		</tr>
+		<tr>
+			<td>Wednesday</td>
+			<td><textarea cols="20" rows="1" name="WeekAWednesday1L" id="WeekAWednesday1L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAWednesday2L" id="WeekAWednesday2L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAWednesday3L" id="WeekAWednesday3L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAWednesday4L" id="WeekAWednesday4L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAWednesday5L" id="WeekAWednesday5L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAWednesday6L" id="WeekAWednesday6L"></textarea></td>
+		</tr>
+		<tr>
+			<td>Thursday</td>
+			<td><textarea cols="20" rows="1" name="WeekAThursday1L" id="WeekAThursday1L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAThursday2L" id="WeekAThursday2L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAThursday3L" id="WeekAThursday3L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAThursday4L" id="WeekAThursday4L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAThursday5L" id="WeekAThursday5L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAThursday6L" id="WeekAThursday6L"></textarea></td>
+		</tr>
+		<tr>
+			<td>Friday</td>
+			<td><textarea cols="20" rows="1" name="WeekAFriday1L" id="WeekAFriday1L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAFriday2L" id="WeekAFriday2L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAFriday3L" id="WeekAFriday3L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAFriday4L" id="WeekAFriday4L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAFriday5L" id="WeekAFriday5L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekAFriday6L" id="WeekAFriday6L"></textarea></td>
+		</tr>
+	</table>
+	</div>
+	<br>
+	<div data-role="fieldcontain">
+	<table>
+		<tr>
+			<td>Week B</td>
+			<td>Period 1</td>
+			<td>Period 2</td>
+			<td>Period 3</td>
+			<td>Period 4</td>
+			<td>Period 5</td>
+			<td>Period 6</td>
+		</tr>
+		<tr>
+			<td>Monday</td>
+			<td><textarea cols="20" rows="1" name="WeekBMonday1L" id="WeekBMonday1L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBMonday2L" id="WeekBMonday2L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBMonday3L" id="WeekBMonday3L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBMonday4L" id="WeekBMonday4L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBMonday5L" id="WeekBMonday5L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBMonday6L" id="WeekBMonday6L"></textarea></td>
+		</tr>
+		<tr>
+			<td>Tuesday</td>
+			<td><textarea cols="20" rows="1" name="WeekBTuesday1L" id="WeekBTuesday1L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBTuesday2L" id="WeekBTuesday2L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBTuesday3L" id="WeekBTuesday3L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBTuesday4L" id="WeekBTuesday4L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBTuesday5L" id="WeekBTuesday5L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBTuesday6L" id="WeekBTuesday6L"></textarea></td>
+		</tr>
+		<tr>
+			<td>Wednesday</td>
+			<td><textarea cols="20" rows="1" name="WeekBWednseday1L" id="WeekBWednseday1L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBWednseday2L" id="WeekBWednseday2L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBWednseday3L" id="WeekBWednseday3L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBWednseday4L" id="WeekBWednseday4L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBWednseday5L" id="WeekBWednseday5L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBWednseday6L" id="WeekBWednseday6L"></textarea></td>
+		</tr>
+		<tr>
+			<td>Thursday</td>
+			<td><textarea cols="20" rows="1" name="WeekBThursday1L" id="WeekBThursday1L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBThursday2L" id="WeekBThursday2L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBThursday3L" id="WeekBThursday3L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBThursday4L" id="WeekBThursday4L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBThursday5L" id="WeekBThursday5L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBThursday6L" id="WeekBThursday6L"></textarea></td>
+		</tr>
+		<tr>
+			<td>Friday</td>
+			<td><textarea cols="20" rows="1" name="WeekBFriday1L" id="WeekBFriday1L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBFriday2L" id="WeekBFriday2L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBFriday3L" id="WeekBFriday3L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBFriday4L" id="WeekBFriday4L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBFriday5L" id="WeekBFriday5L"></textarea></td>
+			<td><textarea cols="20" rows="1" name="WeekBFriday6L" id="WeekBFriday6L"></textarea></td>
+		</tr>
+	</table>
+	</div>
+	<br>
+	<div class="ui-body ui-body-b">
+          <fieldset class="ui-grid-a">
+              <div class="ui-block-a"><button type="submit" data-theme="d" id="b-cancel">Cancel</button></div>
+              <div class="ui-block-b"><button type="submit" data-theme="a" id="b-submit">Submit</button></div>
+            </fieldset>
+          </div>
+        </div>
+	
+	</div>
+	<script>
+		function saveOptions() {
+        var options = {
+		  'timetable': $("#WeekAMonday1"+"-"+"#WeekAMonday2"+"-"+"#WeekAMonday3"+"-"+"#WeekAMonday4"+"-"+"#WeekAMonday5"+"-"+"#WeekAMonday6"+"-"+
+						 "#WeekATuesday1"+"-"+"#WeekATuesday2"+"-"+"#WeekATuesday3"+"-"+"#WeekATuesday4"+"-"+"#WeekATuesday5"+"-"+"#WeekATuesday6"+"-"+
+						 "#WeekAWednesday1"+"-"+"#WeekAWednesday2"+"-"+"#WeekAWednesday3"+"-"+"#WeekAWednesday4"+"-"+"#WeekAWednesday5"+"-"+"#WeekAWednesday6"+"-"+
+						 "#WeekAThursday1"+"-"+"#WeekAThursday2"+"-"+"#WeekAThursday3"+"-"+"#WeekAThursday4"+"-"+"#WeekAThursday5"+"-"+"#WeekAThursday6"+"-"+
+						 "#WeekAFriday1"+"-"+"#WeekAFriday2"+"-"+"#WeekAFriday3"+"-"+"#WeekAFriday4"+"-"+"#WeekAFriday5"+"-"+"#WeekAFriday6"+","+
+						 "#WeekBMonday1"+"-"+"#WeekBMonday2"+"-"+"#WeekBMonday3"+"-"+"#WeekBMonday4"+"-"+"#WeekBMonday5"+"-"+"#WeekBMonday6"+"-"+
+						 "#WeekBTuesday1"+"-"+"#WeekBTuesday2"+"-"+"#WeekBTuesday3"+"-"+"#WeekBTuesday4"+"-"+"#WeekBTuesday5"+"-"+"#WeekBTuesday6"+"-"+
+						 "#WeekBWednesday1"+"-"+"#WeekBWednesday2"+"-"+"#WeekBWednesday3"+"-"+"#WeekBWednesday4"+"-"+"#WeekBWednesday5"+"-"+"#WeekBWednesday6"+"-"+
+						 "#WeekBThursday1"+"-"+"#WeekBThursday2"+"-"+"#WeekBThursday3"+"-"+"#WeekBThursday4"+"-"+"#WeekBThursday5"+"-"+"#WeekBThursday6"+"-"+
+						 "#WeekBFriday1"+"-"+"#WeekBFriday2"+"-"+"#WeekBFriday3"+"-"+"#WeekBFriday4"+"-"+"#WeekBFriday5"+"-"+"#WeekBFriday6"
+						 ).val(),
+		  'location': $("#WeekAMonday1L"+"-"+"#WeekAMonday2L"+"-"+"#WeekAMonday3L"+"-"+"#WeekAMonday4L"+"-"+"#WeekAMonday5L"+"-"+"#WeekAMonday6L"+"-"+
+						 "#WeekATuesday1L"+"-"+"#WeekATuesday2L"+"-"+"#WeekATuesday3L"+"-"+"#WeekATuesday4L"+"-"+"#WeekATuesday5L"+"-"+"#WeekATuesday6L"+"-"+
+						 "#WeekAWednesday1L"+"-"+"#WeekAWednesday2L"+"-"+"#WeekAWednesday3L"+"-"+"#WeekAWednesday4L"+"-"+"#WeekAWednesday5L"+"-"+"#WeekAWednesday6L"+"-"+
+						 "#WeekAThursday1L"+"-"+"#WeekAThursday2L"+"-"+"#WeekAThursday3L"+"-"+"#WeekAThursday4L"+"-"+"#WeekAThursday5L"+"-"+"#WeekAThursday6L"+"-"+
+						 "#WeekAFriday1L"+"-"+"#WeekAFriday2L"+"-"+"#WeekAFriday3L"+"-"+"#WeekAFriday4L"+"-"+"#WeekAFriday5L"+"-"+"#WeekAFriday6L"+","+
+						 "#WeekBMonday1L"+"-"+"#WeekBMonday2L"+"-"+"#WeekBMonday3L"+"-"+"#WeekBMonday4L"+"-"+"#WeekBMonday5L"+"-"+"#WeekBMonday6L"+"-"+
+						 "#WeekBTuesday1L"+"-"+"#WeekBTuesday2L"+"-"+"#WeekBTuesday3L"+"-"+"#WeekBTuesday4L"+"-"+"#WeekBTuesday5L"+"-"+"#WeekBTuesday6L"+"-"+
+						 "#WeekBWednesday1L"+"-"+"#WeekBWednesday2L"+"-"+"#WeekBWednesday3L"+"-"+"#WeekBWednesday4L"+"-"+"#WeekBWednesday5L"+"-"+"#WeekBWednesday6L"+"-"+
+						 "#WeekBThursday1L"+"-"+"#WeekBThursday2L"+"-"+"#WeekBThursday3L"+"-"+"#WeekBThursday4L"+"-"+"#WeekBThursday5L"+"-"+"#WeekBThursday6L"+"-"+
+						 "#WeekBFriday1L"+"-"+"#WeekBFriday2L"+"-"+"#WeekBFriday3L"+"-"+"#WeekBFriday4L"+"-"+"#WeekBFriday5L"+"-"+"#WeekBFriday6L"
+						 ).val(),
+        }
+        return options;
+      }
+
+      $().ready(function() {
+        $("#b-cancel").click(function() {
+          console.log("Cancel");
+          document.location = "pebblejs://close";
+        });
+
+        $("#b-submit").click(function() {
+          console.log("Submit");
+
+          var location = "pebblejs://close#" + encodeURIComponent(JSON.stringify(saveOptions()));
+          console.log("Warping to: " + location);
+          console.log(location);
+          document.location = location;
+        });
+
+      });
+	</script>
+	</body>
+</html>
